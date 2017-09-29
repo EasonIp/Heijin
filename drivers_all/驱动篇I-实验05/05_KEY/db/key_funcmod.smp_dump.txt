@@ -1,0 +1,7 @@
+
+State Machine - |key_funcmod|isTag
+Name isTag.11 isTag.10 isTag.01 isTag.00 
+isTag.00 0 0 0 0 
+isTag.01 0 0 1 1 
+isTag.10 0 1 0 1 
+isTag.11 1 0 0 1 
