@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Dec 24 17:19:50 2012
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : vga_module
+Top-level Entity Name : vga_module
+Family : Cyclone II
+Device : EP2C8Q208C8
+Timing Models : Final
+Total logic elements : 77 / 8,256 ( < 1 % )
+    Total combinational functions : 68 / 8,256 ( < 1 % )
+    Dedicated logic registers : 49 / 8,256 ( < 1 % )
+Total registers : 49
+Total pins : 7 / 138 ( 5 % )
+Total virtual pins : 0
+Total memory bits : 16,384 / 165,888 ( 10 % )
+Embedded Multiplier 9-bit elements : 0 / 36 ( 0 % )
+Total PLLs : 1 / 2 ( 50 % )

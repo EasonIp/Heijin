@@ -1,0 +1,46 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 8.514 ns
+From           : sdram_module3:U2|sdram_control_module:U1|isInit
+To             : SDRAM_BA[9]
+From Clock     : CLK
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Clock Setup: 'pll_module:U1|altpll:altpll_component|_clk0'
+Slack          : 3.590 ns
+Required Time  : 100.00 MHz ( period = 10.000 ns )
+Actual Time    : 156.01 MHz ( period = 6.410 ns )
+From           : sdram_module3:U2|sdram_control_module:U1|i[0]
+To             : sdram_module3:U2|sdram_control_module:U1|C1[5]
+From Clock     : pll_module:U1|altpll:altpll_component|_clk0
+To Clock       : pll_module:U1|altpll:altpll_component|_clk0
+Failed Paths   : 0
+
+Type           : Clock Hold: 'pll_module:U1|altpll:altpll_component|_clk0'
+Slack          : 0.499 ns
+Required Time  : 100.00 MHz ( period = 10.000 ns )
+Actual Time    : N/A
+From           : sdram_module3:U2|sdram_func_module:U3|isOut
+To             : sdram_module3:U2|sdram_func_module:U3|isOut
+From Clock     : pll_module:U1|altpll:altpll_component|_clk0
+To Clock       : pll_module:U1|altpll:altpll_component|_clk0
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

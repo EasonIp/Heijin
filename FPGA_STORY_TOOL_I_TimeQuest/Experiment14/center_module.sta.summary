@@ -1,0 +1,29 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'fpga_clk'
+Slack : 8.486
+TNS   : 0.000
+
+Type  : Slow Model Hold 'fpga_clk'
+Slack : 0.499
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'fpga_clk'
+Slack : 3.758
+TNS   : 0.000
+
+Type  : Fast Model Setup 'fpga_clk'
+Slack : 9.370
+TNS   : 0.000
+
+Type  : Fast Model Hold 'fpga_clk'
+Slack : 0.215
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'fpga_clk'
+Slack : 4.000
+TNS   : 0.000
+
+------------------------------------------------------------

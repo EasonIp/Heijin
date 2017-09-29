@@ -1,0 +1,37 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Setup 'SDRAM_CLK'
+Slack : -1.244
+TNS   : -15.405
+
+Type  : Setup 'U1|altpll_component|pll|clk[0]'
+Slack : 3.606
+TNS   : 0.000
+
+Type  : Hold 'U1|altpll_component|pll|clk[0]'
+Slack : 0.499
+TNS   : 0.000
+
+Type  : Hold 'SDRAM_CLK'
+Slack : 7.566
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'U1|altpll_component|pll|clk[0]'
+Slack : 3.758
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'U1|altpll_component|pll|clk[1]'
+Slack : 5.000
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'SDRAM_CLK'
+Slack : 6.000
+TNS   : 0.000
+
+Type  : Minimum Pulse Width 'CLK'
+Slack : 25.000
+TNS   : 0.000
+
+------------------------------------------------------------

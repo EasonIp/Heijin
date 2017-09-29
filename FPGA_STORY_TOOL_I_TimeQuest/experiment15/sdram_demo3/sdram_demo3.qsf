@@ -1,0 +1,113 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2009 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 9.1 Build 222 10/21/2009 SJ Full Version
+# Date created = 14:13:20  November 01, 2011
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		sdram_demo3_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone II"
+set_global_assignment -name DEVICE EP2C8Q208C8
+set_global_assignment -name TOP_LEVEL_ENTITY sdram_demo3
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "14:13:20  NOVEMBER 01, 2011"
+set_global_assignment -name LAST_QUARTUS_VERSION 9.1
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_location_assignment PIN_28 -to CLK
+set_location_assignment PIN_74 -to LED[3]
+set_location_assignment PIN_72 -to LED[2]
+set_location_assignment PIN_70 -to LED[1]
+set_location_assignment PIN_69 -to LED[0]
+set_location_assignment PIN_23 -to RSTn
+set_location_assignment PIN_151 -to SDRAM_BA[12]
+set_location_assignment PIN_150 -to SDRAM_BA[13]
+set_location_assignment PIN_193 -to SDRAM_BA[11]
+set_location_assignment PIN_176 -to SDRAM_BA[10]
+set_location_assignment PIN_192 -to SDRAM_BA[9]
+set_location_assignment PIN_191 -to SDRAM_BA[8]
+set_location_assignment PIN_189 -to SDRAM_BA[7]
+set_location_assignment PIN_188 -to SDRAM_BA[6]
+set_location_assignment PIN_187 -to SDRAM_BA[5]
+set_location_assignment PIN_185 -to SDRAM_BA[4]
+set_location_assignment PIN_182 -to SDRAM_BA[3]
+set_location_assignment PIN_181 -to SDRAM_BA[2]
+set_location_assignment PIN_180 -to SDRAM_BA[1]
+set_location_assignment PIN_179 -to SDRAM_BA[0]
+set_location_assignment PIN_208 -to SDRAM_CMD[4]
+set_location_assignment PIN_152 -to SDRAM_CMD[3]
+set_location_assignment PIN_160 -to SDRAM_CMD[2]
+set_location_assignment PIN_161 -to SDRAM_CMD[1]
+set_location_assignment PIN_162 -to SDRAM_CMD[0]
+set_location_assignment PIN_195 -to SDRAM_DATA[15]
+set_location_assignment PIN_197 -to SDRAM_DATA[14]
+set_location_assignment PIN_198 -to SDRAM_DATA[13]
+set_location_assignment PIN_199 -to SDRAM_DATA[12]
+set_location_assignment PIN_200 -to SDRAM_DATA[11]
+set_location_assignment PIN_201 -to SDRAM_DATA[10]
+set_location_assignment PIN_203 -to SDRAM_DATA[9]
+set_location_assignment PIN_205 -to SDRAM_DATA[8]
+set_location_assignment PIN_164 -to SDRAM_DATA[7]
+set_location_assignment PIN_165 -to SDRAM_DATA[6]
+set_location_assignment PIN_168 -to SDRAM_DATA[5]
+set_location_assignment PIN_169 -to SDRAM_DATA[4]
+set_location_assignment PIN_170 -to SDRAM_DATA[3]
+set_location_assignment PIN_171 -to SDRAM_DATA[2]
+set_location_assignment PIN_173 -to SDRAM_DATA[1]
+set_location_assignment PIN_175 -to SDRAM_DATA[0]
+set_location_assignment PIN_207 -to SDRAM_CLK
+set_location_assignment PIN_206 -to SDRAM_UDQM
+set_location_assignment PIN_163 -to SDRAM_LDQM
+set_global_assignment -name MISC_FILE "C:/Documents and Settings/Administrator/My Documents/experimentxz/sdram_demo3/sdram_demo3.dpf"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS INPUT TRI-STATED"
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS_NO_OUTPUT_GND "AS INPUT TRI-STATED"
+set_global_assignment -name SDC_FILE sdram_demo3.sdc
+set_global_assignment -name VERILOG_FILE ../sdram_module3/sdram_control_module.v
+set_global_assignment -name VERILOG_FILE ../sdram_module3/sdram_func_module.v
+set_global_assignment -name VERILOG_FILE ../sdram_module3/sdram_init_module.v
+set_global_assignment -name VERILOG_FILE ../sdram_module3/sdram_module3.v
+set_global_assignment -name QIP_FILE pll_module.qip
+set_global_assignment -name VERILOG_FILE sdram_demo3.v
+set_global_assignment -name TIMEQUEST_MULTICORNER_ANALYSIS OFF
+set_global_assignment -name USE_TIMEQUEST_TIMING_ANALYZER ON
+set_global_assignment -name ROUTER_TIMING_OPTIMIZATION_LEVEL NORMAL
+set_global_assignment -name ROUTER_EFFORT_MULTIPLIER 1
+set_global_assignment -name PHYSICAL_SYNTHESIS_REGISTER_RETIMING OFF
+set_global_assignment -name PHYSICAL_SYNTHESIS_REGISTER_DUPLICATION OFF
+set_global_assignment -name PHYSICAL_SYNTHESIS_EFFORT NORMAL
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

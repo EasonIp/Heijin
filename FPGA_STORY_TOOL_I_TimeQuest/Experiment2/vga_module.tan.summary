@@ -1,0 +1,46 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 5.359 ns
+From           : rBy3[1]
+To             : HSYNC
+From Clock     : CLK
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Clock Setup: 'pll_module:U0|altpll:altpll_component|_clk0'
+Slack          : 15.574 ns
+Required Time  : 40.00 MHz ( period = 25.000 ns )
+Actual Time    : 106.09 MHz ( period = 9.426 ns )
+From           : rom_module:U2|altsyncram:altsyncram_component|altsyncram_92a1:auto_generated|ram_block1a4~porta_address_reg10
+To             : vga_control_module:U3|rRGB[0]
+From Clock     : pll_module:U0|altpll:altpll_component|_clk0
+To Clock       : pll_module:U0|altpll:altpll_component|_clk0
+Failed Paths   : 0
+
+Type           : Clock Hold: 'pll_module:U0|altpll:altpll_component|_clk0'
+Slack          : 0.499 ns
+Required Time  : 40.00 MHz ( period = 25.000 ns )
+Actual Time    : N/A
+From           : sync_module:U1|rV
+To             : sync_module:U1|rV
+From Clock     : pll_module:U0|altpll:altpll_component|_clk0
+To Clock       : pll_module:U0|altpll:altpll_component|_clk0
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+

@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Dec 28 17:04:04 2012
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : Delay_monster
+Top-level Entity Name : Delay_monster
+Family : Cyclone II
+Total logic elements : 259
+    Total combinational functions : 242
+    Dedicated logic registers : 33
+Total registers : 33
+Total pins : 34
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
